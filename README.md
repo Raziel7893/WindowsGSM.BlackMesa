@@ -18,7 +18,7 @@
 3. Drag WindowsGSM.Exe into previously created folder and execute it.
 
 ### Plugin Installation:
-1. Download [latest](https://https://github.com/Raziel7893/WindowsGSM.BlackMesa/releases/latest) release
+1. Download [latest](https://github.com/Raziel7893/WindowsGSM.BlackMesa/releases/latest) release
 2. Either Extract then Move the folder **BlackMesa.cs** to **WindowsGSM/plugins** 
     1. Press on the Puzzle Icon in the left bottom side and press **[RELOAD PLUGINS]** or restart WindowsGSM
 3. Or Press on the Puzzle Icon in the left bottom side and press **[IMPORT PLUGIN]** and choose the downloaded .zip
