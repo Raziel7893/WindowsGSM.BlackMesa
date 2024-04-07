@@ -18,7 +18,7 @@ namespace WindowsGSM.Plugins
 
         public string FullName = "BlackMesa: Dedicated Server";
         public override string Defaultmap { get { return "gasworks"; } }
-        public override string Additional { get { return ""; } }
+        public override string Additional { get { return "-tickrate 64"; } }
         public override string Game { get { return "bms"; } }
         public override string AppId { get { return "346680"; } }
 
