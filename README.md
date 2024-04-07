@@ -41,6 +41,16 @@ Modify the server config file to adjust settings(Brose=>Server Files): serverfil
   - this one is needed to be forwarded in your Router!
 - 27015 TCP - **QueryPort** default, in theory the QueryPort should not be needed as PortForward
 
+### Connecting to a LAN Server:
+- Go to Opptions
+- Enable Developer Mode
+- Go To Keyboard Bindings and set the Key for the Console
+- go Back
+- Press that key and enter
+  - connect IP_OF_THE_SERVER:Port (if port is 27015 you can leave it out)
+  - if your in the same network use the local IP of that server, else use you onlineIP
+  - https://www.whatismyip.com/  
+
 ### Support
 [WGSM](https://discord.com/channels/590590698907107340/645730252672335893)
 
