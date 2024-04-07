@@ -5,7 +5,7 @@
 
 ### IMPORTANT POINTS:
 - You need to do **Portforwarding**, if you want people outside of your house to be able to connect
-- If you want your Server to be Listed: (default is LAN!)
+- If you want your Server to be Listed: (default is LAN/IP-Connect ONLY!)
   - Link the Server to your Account: Edit Config => **Server GSLT** (https://steamcommunity.com/dev/managegameservers?l=german App ID )
   - **install the SteamClient( START IT ONCE**, no login, no autostart, just install and start it once)
   - go to the Server.cfg (WindowsGSM Click on **Browse => Server Files**, then go **\bms\cfg** and open **server.cfg** with Editor)
