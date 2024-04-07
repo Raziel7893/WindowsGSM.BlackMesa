@@ -47,7 +47,7 @@ Modify the server config file to adjust settings(Brose=>Server Files): serverfil
 - Go To Keyboard Bindings and set the Key for the Console
 - go Back
 - Press that key and enter
-  - connect IP_OF_THE_SERVER:Port (if port is 27015 you can leave it out)
+  - connect IP_OF_THE_SERVER:GamePort (if port is 27015 you can leave it out)
   - if your in the same network use the local IP of that server, else use you onlineIP
   - https://www.whatismyip.com/  
 
