@@ -1,3 +1,4 @@
+using System.IO;
 using WindowsGSM.Functions;
 using WindowsGSM.GameServer.Engine;
 
@@ -26,5 +27,29 @@ namespace WindowsGSM.Plugins
         {
             base.serverData = serverData;
         }
+
+        public async void CreateServerCFG()
+        {
+            //Download server.cfg
+            string configPath = Functions.ServerPath.GetServersServerFiles(serverData.ServerID, Game, "cfg/server.cfg");
+            if (File.Exists(configPath))
+            {
+                string configText = File.ReadAllText(configPath);
+                configText = configText.Replace("Black Mesa: Deathmatch", serverData.ServerName);
+                configText = configText + $"\nrcon_password {serverData.GetRCONPassword()}\n";
+                configText = configText + $"\nsv_lan 1\n";
+                File.WriteAllText(configPath, configText);
+            }
+
+            //Edit WindowsGSM.cfg
+            string configFile = Functions.ServerPath.GetServersConfigs(serverData.ServerID, "WindowsGSM.cfg");
+            if (File.Exists(configFile))
+            {
+                string configText = File.ReadAllText(configFile);
+                configText = configText.Replace("{{clientport}}", (int.Parse(serverData.ServerPort) - 10).ToString());
+                File.WriteAllText(configFile, configText);
+            }
+        }
+
     }
 }
