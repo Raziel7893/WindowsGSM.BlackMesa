@@ -3,13 +3,14 @@
 
 ## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
 
-### IMPORTANT POINTS:
-- You need to do **Portforwarding**, if you want people outside of your house to be able to connect
+### IMPORTANT POINTS, READ FIRST:
+- You need to do **Portforwarding**, if you want people outside of your house to be able to connect (look down for it)
 - If you want your Server to be Listed: (default is LAN/IP-Connect ONLY!)
   - Link the Server to your Account: Edit Config => **Server GSLT** (https://steamcommunity.com/dev/managegameservers?l=german App ID )
   - **install the SteamClient( START IT ONCE**, no login, no autostart, just install and start it once)
   - go to the Server.cfg (WindowsGSM Click on **Browse => Server Files**, then go **\bms\cfg** and open **server.cfg** with Editor)
-    - Excange "sv_lan" from 1 to 0 
+    - Excange "sv_lan" from 1 to 0
+- The Server can not be **connected from the same Machine**. You will need to create the server within Black Mesa game (Multiplayer => create) if one Machine has to act as Server AND Client.
 
 ### WindowsGSM Installation: 
 1. Download  WindowsGSM https://windowsgsm.com/ 
@@ -34,7 +35,7 @@ Modify the server config file to adjust settings(Brose=>Server Files): serverfil
 ### Dedicated server info
 🖥️ https://steamdb.info/app/346680/info/
 
-### Port Forwarding (YOU NEED THIS, TO BE ABLE TO CONNECT FROM THE INTERNET(only for servers/pcs at home):
+### Port Forwarding (YOU NEED THIS, TO BE ABLE TO CONNECT FROM THE INTERNET(only for servers/pcs at home, Hosted Servers work different there, make sure you have a full IPv4 and if your provider needs explicit portforwarding):
 - If You don't know How: Google: YourRouterBrand + Portforwarding
 - 27015 UDP - **Default Game Port**(look in the 7th column in WindowsGSM), 
   - this one is needed to be forwarded in your Router!
