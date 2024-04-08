@@ -9,7 +9,7 @@
   - Link the Server to your Account: Edit Config => **Server GSLT** (https://steamcommunity.com/dev/managegameservers?l=german App ID )
   - **install the SteamClient( START IT ONCE**, no login, no autostart, just install and start it once)
   - go to the Server.cfg (WindowsGSM Click on **Browse => Server Files**, then go **\bms\cfg** and open **server.cfg** with Editor)
-    - Excange "sv_lan" from 1 to 0
+    - Excange "sv_lan" from 1 to  (lan/ip connections will still work in addition)
 - The Server can not be **connected from the same Machine**. You will need to create the server within Black Mesa game (Multiplayer => create) if one Machine has to act as Server AND Client.
 
 ### WindowsGSM Installation: 
