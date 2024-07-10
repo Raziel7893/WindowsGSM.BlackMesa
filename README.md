@@ -1,4 +1,4 @@
-# BlackMesa - does not work on the same pc as the game client
+# BlackMesa
 🧩 Plugin for WindowsGSM to run a dedicated server for Black Mesa
 
 ## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
